@@ -1,5 +1,8 @@
 name: "CF Deploy MTA"
 description: Deploys an MTA file to Cloud Foundry
+branding:
+  icon: "upload-cloud"
+  color: "black"
 inputs:
   mtafile:
     description: Path to your MTA file, relative to the workspace
