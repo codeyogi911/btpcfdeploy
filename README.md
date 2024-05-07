@@ -30,7 +30,7 @@ steps:
   uses: actions/checkout@v2
 
 - name: Deploy MTA
-  uses: <your-github-username>/cf-deploy-mta@v1
+  uses: codeyogi911/btpcfdeploy@v1
   with:
     mtafile: 'path/to/your/mtafile'
     api: 'https://api.example.com'
