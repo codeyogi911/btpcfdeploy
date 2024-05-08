@@ -1,5 +1,5 @@
-name: "CF Deploy MTA"
-description: Deploys an MTA file to Cloud Foundry
+name: "SAP BTP CF Deploy"
+description: Deploys an MTA file to Cloud Foundry on SAP Business Technology Platform
 branding:
   icon: "upload-cloud"
   color: "black"
