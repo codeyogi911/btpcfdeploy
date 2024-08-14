@@ -33,6 +33,9 @@ inputs:
     description: Regex that scans the result of 'findurl_command'
     required: false
     default: "https.*"
+  deployparams:
+    description: Deployment parameters
+    required: false
 outputs:
   url:
     description: The applications's main URL (only if 'findurl_command' is set and successful)

@@ -12,7 +12,7 @@ fi
 
 cf target -o ${INPUT_ORG:-$CF_ORG} -s ${INPUT_SPACE:-$CF_SPACE}
 
-cf deploy ${INPUT_MTAFILE} -f
+cf deploy ${INPUT_MTAFILE} -f ${INPUT_DEPLOYPARAMS}
 
 if [ ! -z "${INPUT_FINDURL_COMMAND}" ]; then
   # echo "Find URL command: ${INPUT_FINDURL_COMMAND}, regex: ${INPUT_FINDURL_REGEX}"
